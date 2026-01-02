@@ -1,0 +1,143 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:hamlet_name",
+ "creation": "2025-12-31 16:34:47.118762",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "country",
+  "column_break_btqh",
+  "state",
+  "column_break_jcky",
+  "district",
+  "section_break_nyfl",
+  "block",
+  "column_break_vvhr",
+  "gram_panchayat",
+  "column_break_dezt",
+  "village",
+  "section_break_siyl",
+  "hamlet_name",
+  "column_break_vumn",
+  "hamlet_code",
+  "column_break_eodo",
+  "img"
+ ],
+ "fields": [
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "column_break_btqh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Link",
+   "label": "State",
+   "options": "State"
+  },
+  {
+   "fieldname": "column_break_jcky",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "District"
+  },
+  {
+   "fieldname": "section_break_nyfl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "block",
+   "fieldtype": "Link",
+   "label": "Block",
+   "options": "Block"
+  },
+  {
+   "fieldname": "column_break_vvhr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gram_panchayat",
+   "fieldtype": "Link",
+   "label": "Gram Panchayat",
+   "options": "Gram Panchayat"
+  },
+  {
+   "fieldname": "column_break_dezt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Link",
+   "label": "Village",
+   "options": "Village"
+  },
+  {
+   "fieldname": "section_break_siyl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "hamlet_name",
+   "fieldtype": "Data",
+   "label": "Hamlet Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_vumn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hamlet_code",
+   "fieldtype": "Data",
+   "label": "Hamlet Code"
+  },
+  {
+   "fieldname": "column_break_eodo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "img",
+   "fieldtype": "Attach Image",
+   "label": "img"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-01-02 17:52:45.885739",
+ "modified_by": "Administrator",
+ "module": "Geography",
+ "name": "Hamlet",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "hamlet_code"
+}
