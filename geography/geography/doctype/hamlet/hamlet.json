@@ -21,15 +21,16 @@
   "hamlet_name",
   "column_break_vumn",
   "hamlet_code",
-  "column_break_eodo",
-  "img"
+  "column_break_eodo"
  ],
  "fields": [
   {
    "fieldname": "country",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Country",
-   "options": "Country"
+   "options": "Country",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_btqh",
@@ -38,8 +39,10 @@
   {
    "fieldname": "state",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "State",
-   "options": "State"
+   "options": "State",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_jcky",
@@ -48,8 +51,10 @@
   {
    "fieldname": "district",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "District",
-   "options": "District"
+   "options": "District",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_nyfl",
@@ -58,8 +63,10 @@
   {
    "fieldname": "block",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Block",
-   "options": "Block"
+   "options": "Block",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_vvhr",
@@ -69,7 +76,8 @@
    "fieldname": "gram_panchayat",
    "fieldtype": "Link",
    "label": "Gram Panchayat",
-   "options": "Gram Panchayat"
+   "options": "Gram Panchayat",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_dezt",
@@ -79,7 +87,8 @@
    "fieldname": "village",
    "fieldtype": "Link",
    "label": "Village",
-   "options": "Village"
+   "options": "Village",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_siyl",
@@ -89,6 +98,7 @@
    "fieldname": "hamlet_name",
    "fieldtype": "Data",
    "label": "Hamlet Name",
+   "reqd": 1,
    "unique": 1
   },
   {
@@ -98,22 +108,18 @@
   {
    "fieldname": "hamlet_code",
    "fieldtype": "Data",
-   "label": "Hamlet Code"
+   "label": "Hamlet Code",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_eodo",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "img",
-   "fieldtype": "Attach Image",
-   "label": "img"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-02 17:52:45.885739",
+ "modified": "2026-01-05 12:55:11.097159",
  "modified_by": "Administrator",
  "module": "Geography",
  "name": "Hamlet",
